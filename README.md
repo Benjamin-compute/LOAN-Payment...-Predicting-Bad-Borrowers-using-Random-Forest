@@ -10,7 +10,7 @@ The data size is 236,846 rows with 28 features, and after cleaning and feature s
 This training data spans from January 2014 to June 2016 (2+ years)
 The model was applied to a new dataset having 95,019 rows and spanning from July 2017 to December 2018 (1+ years)
 
-## Features (16 + response variable)
+## Features
     * total_acc:       The total number of credit lines currently in the borrower's credit file
     * pub_rec:         Number of derogatory public records
     * revol_bal:       Total credit revolving balance: 
@@ -27,5 +27,5 @@ The model was applied to a new dataset having 95,019 rows and spanning from July
     * emp_length:              Employment length in years. Possible values are between 0 and 10, where 0 means less than one year and 10 means ten or more years.
     * time_to_earliest_cr_line:     The number of days the borrower has had a credit line.
     
-    * loan_status:     Indicator variable, telling whether the loan has been fully or not fully paid (this is the response variable)
+    * loan_status (this is the response variable):     Indicator variable, telling whether the loan has been fully or not fully paid 
 
