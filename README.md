@@ -1,13 +1,14 @@
 # Loan-Approval-Prediction-using-RF
 
 This project explores publicly available data for LendingClub.com (download [here](https://figshare.com/articles/dataset/Lending_Club/22121477/4?file=39316160)). 
-Lending Club connects people who need money (borrowers) with people who have money (investors). The overarching idea is that investors would want to invest in people whose profiles have a high probability of paying back. 
-Random Forrest Algorithm was used experimentally to create a model that will help predict this.
+Lending Club connects people who need money (borrowers) with individuals who have money (investors). The overarching idea is that investors want to invest in borrowers whose profiles have a high probability of repayment. 
+Random Forrest Classification Algorithm was used experimentally to create a model that will help predict this.
+Model Performance: Overall accuracy was considered with priority given to F1-score and recall, since it is critical to identify bad borrowers.
 
 ## Data
 The data size is 236,846 rows with 28 features, and after cleaning and feature selection, the model was trained using 236,840 rows with 16 features
 This training data spans from January 2014 to June 2016 (2+ years)
-The data was tested on a new dataset which spanned from July 2017 to December 2018 (1+ years)
+The model was applied to a new dataset having 95,019 rows and spanning from July 2017 to December 2018 (1+ years)
 
 ## Features (16 + response variable)
     * total_acc:       The total number of credit lines currently in the borrower's credit file
@@ -18,7 +19,7 @@ The data was tested on a new dataset which spanned from July 2017 to December 20
     * dti:             The debt-to-income ratio of the borrower (amount of debt divided by annual income).
     * purpose:         A category provided by the borrower for the loan request (takes values like "credit_card", "debt_consolidation", "small_businesses", etc). 
     * mort_acc:        Number of mortgage accounts.
-    * loan_amnt:       The listed amount of the loan applied for by the borrower. If at some point in time, the credit department reduces the loan amount, then it will be reflected in this value.
+    * loan_amnt:       The listed amount of the loan applied for by the borrower. If, at some point, the credit department reduces the loan amount, it will be reflected in this value.
     * installment:     The monthly installments owed by the borrower if the loan is funded.
     * fico:            The FICO credit score of the borrower
     * pub_rec_bankruptcies:    Number of public record bankruptcies
