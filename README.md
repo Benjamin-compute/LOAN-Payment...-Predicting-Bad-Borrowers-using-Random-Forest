@@ -1,8 +1,8 @@
-# Loan-Approval-Prediction-using-RF
+# Loan-Approval-Prediction-using-Random Forest
 
 This project explores publicly available data for LendingClub.com (download [here](https://figshare.com/articles/dataset/Lending_Club/22121477/4?file=39316160)). 
 Lending Club connects people who need money (borrowers) with individuals who have money (investors). The overarching idea is that investors want to invest in borrowers whose profiles have a high probability of repayment. 
-Random Forrest Classification Algorithm was used experimentally to create a model that will help predict this.
+Random Forest Classification Algorithm was used experimentally to create a model that will help predict this.
 Model Performance: Overall accuracy was considered with priority given to F1-score and recall, since it is critical to identify bad borrowers.
 
 ## Data
